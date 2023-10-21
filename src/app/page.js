@@ -23,6 +23,7 @@ export default function Home() {
               <p className='md:font-semibold md:text-6xl md:font-sans md:pb-2'>Find the right dental<br></br>shift, right away</p>
               <p className='md:font-medium md:text-3xl md:font-sans'>All around America.</p>
               <p className='md:pt-8'>On-demand shifts for dental hygienists, assistants, and receptionists.<br></br>Set your own hours, pay and location with Bite.</p>
+              <p className='md:pt-8'>Sign up on the waitlist to get updates and information on<br></br>joining Bite as a contracted dental worker.</p>
               <div className='md:flex md:flex-col md:pt-8'>
                 <SignUpForm />
               </div>
@@ -48,8 +49,11 @@ export default function Home() {
               height="400"
             ></Image>
           </div>
-          <div>
-            <p className='pt-8 text-center'>On-demand shifts for dental hygienists, assistants, and receptionists.<br></br>Set your own hours, pay and location with Bite.</p>
+          <div className='flex justify-center'>
+            <p className='pt-8 pl-2 pr-2 text-center md:w-96'>On-demand shifts for dental hygienists, assistants, and receptionists. Set your own hours, pay and location with Bite.</p>
+          </div>
+          <div className='flex justify-center'>
+            <p className='pt-8 pl-2 pr-2 text-center md:w-96'>Sign up on the waitlist to get updates and information on joining Bite as a contracted dental worker.</p>
           </div>
           <div>
             <SignUpForm />
