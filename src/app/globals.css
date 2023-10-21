@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media screen and (max-width: 1335px) {
+    .desktop {
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 1336px) {
+    .mobile {
+        display: none;
+    }
+}
