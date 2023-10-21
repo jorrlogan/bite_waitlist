@@ -129,8 +129,8 @@ export function SignUpForm() {
         )
     } else {
         return (
-            <div className='pt-4'>
-                <p className='text-black'>Thank you, we&apos;ll keep you updated on our launch date!</p>
+            <div className='pt-4 flex justify-center'>
+                <p className='text-black text-center'>Thank you!</p>
             </div>
         )
     }
