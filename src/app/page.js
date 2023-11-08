@@ -11,8 +11,7 @@ export default function Home() {
         <main className="md:flex md:h-screen md:flex-col md:pl-64 md:pr-32 md:pt-8">
           <div className='md:flex md:justify-start md:items-center md:h-5/6'>
             <div className='md:basis-1/2 md:flex md:justify-end md:pr-36'>
-              <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app.png"
-                width="350"
+              <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app-v2.png"
                 height="400"
               ></Image>
             </div>
