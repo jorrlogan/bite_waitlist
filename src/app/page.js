@@ -11,8 +11,8 @@ export default function Home() {
         <main className="md:flex md:h-screen md:flex-col md:pl-64 md:pr-32 md:pt-8">
           <div className='md:flex md:justify-start md:items-center md:h-5/6'>
             <div className='md:basis-1/2 md:flex md:justify-end md:pr-36'>
-              <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app-v3.png"
-                height="400"
+              <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app-higher-wage.png"
+                width="400" height="400"
               ></Image>
             </div>
             <div>
@@ -43,7 +43,7 @@ export default function Home() {
             <p className='font-medium text-2xl font-sans pb-4 text-center'>All around America.</p>
           </div>
           <div className='flex justify-center'>
-            <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app.png"
+            <Image src="https://versity-images.s3.us-west-2.amazonaws.com/bite-app-higher-wage.png"
               width="350"
               height="400"
             ></Image>
